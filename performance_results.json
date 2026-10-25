@@ -1,0 +1,171 @@
+{
+  "cuda_available": false,
+  "mode": "quick",
+  "results": [
+    {
+      "shape": [
+        4,
+        128,
+        128
+      ],
+      "operation": "matmul",
+      "device": "cpu",
+      "time_ms": 0.2977,
+      "speedup_cpu_over_gpu": null
+    },
+    {
+      "shape": [
+        4,
+        128,
+        128
+      ],
+      "operation": "addition",
+      "device": "cpu",
+      "time_ms": 0.0101,
+      "speedup_cpu_over_gpu": null
+    },
+    {
+      "shape": [
+        4,
+        128,
+        128
+      ],
+      "operation": "elementwise_multiplication",
+      "device": "cpu",
+      "time_ms": 0.0069,
+      "speedup_cpu_over_gpu": null
+    },
+    {
+      "shape": [
+        4,
+        128,
+        128
+      ],
+      "operation": "transpose",
+      "device": "cpu",
+      "time_ms": 0.0016,
+      "speedup_cpu_over_gpu": null
+    },
+    {
+      "shape": [
+        4,
+        128,
+        128
+      ],
+      "operation": "sum",
+      "device": "cpu",
+      "time_ms": 0.0527,
+      "speedup_cpu_over_gpu": null
+    },
+    {
+      "shape": [
+        8,
+        64,
+        64
+      ],
+      "operation": "matmul",
+      "device": "cpu",
+      "time_ms": 0.0533,
+      "speedup_cpu_over_gpu": null
+    },
+    {
+      "shape": [
+        8,
+        64,
+        64
+      ],
+      "operation": "addition",
+      "device": "cpu",
+      "time_ms": 0.0057,
+      "speedup_cpu_over_gpu": null
+    },
+    {
+      "shape": [
+        8,
+        64,
+        64
+      ],
+      "operation": "elementwise_multiplication",
+      "device": "cpu",
+      "time_ms": 0.0052,
+      "speedup_cpu_over_gpu": null
+    },
+    {
+      "shape": [
+        8,
+        64,
+        64
+      ],
+      "operation": "transpose",
+      "device": "cpu",
+      "time_ms": 0.0013,
+      "speedup_cpu_over_gpu": null
+    },
+    {
+      "shape": [
+        8,
+        64,
+        64
+      ],
+      "operation": "sum",
+      "device": "cpu",
+      "time_ms": 0.0056,
+      "speedup_cpu_over_gpu": null
+    },
+    {
+      "shape": [
+        16,
+        32,
+        32
+      ],
+      "operation": "matmul",
+      "device": "cpu",
+      "time_ms": 0.9668,
+      "speedup_cpu_over_gpu": null
+    },
+    {
+      "shape": [
+        16,
+        32,
+        32
+      ],
+      "operation": "addition",
+      "device": "cpu",
+      "time_ms": 0.0037,
+      "speedup_cpu_over_gpu": null
+    },
+    {
+      "shape": [
+        16,
+        32,
+        32
+      ],
+      "operation": "elementwise_multiplication",
+      "device": "cpu",
+      "time_ms": 0.0035,
+      "speedup_cpu_over_gpu": null
+    },
+    {
+      "shape": [
+        16,
+        32,
+        32
+      ],
+      "operation": "transpose",
+      "device": "cpu",
+      "time_ms": 0.0013,
+      "speedup_cpu_over_gpu": null
+    },
+    {
+      "shape": [
+        16,
+        32,
+        32
+      ],
+      "operation": "sum",
+      "device": "cpu",
+      "time_ms": 0.0025,
+      "speedup_cpu_over_gpu": null
+    }
+  ]
+}
